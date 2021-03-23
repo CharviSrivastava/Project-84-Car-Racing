@@ -64,4 +64,24 @@ function my_keydown(e)
         console.log("right");
         right();
     }
+    if(keyPressed=='87')
+    {
+        console.log("w");
+        car2_up();
+    }
+    if(keyPressed=='65')
+    {
+        console.log("a");
+        car2_down();
+    }
+    if(keyPressed=='83')
+    {
+        console.log("s");
+        car2_left();
+    }
+    if(keyPressed=='68')
+    {
+        console.log("d");
+        car2_right();
+    }
 }
